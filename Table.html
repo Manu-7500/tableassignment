@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Creating ATM table </title>
+        <style>
+            th {
+                background-color: aliceblue;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <h2> ATM table</h2>
+        <table border="2" cellpadding="15" style="border-collapse:collapse;">
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th style="color: blue; background-color: gold;">Exit</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th style="color:aliceblue; background-color:red">Yes</th>
+            </tr>
+            <tr>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th style="color: green; background-color:aliceblue">No</th>
+            </tr>
+            <tr>
+                <th>#</th>
+                <th>0</th>
+                <th>*</th>
+                <th style="color:aliceblue; background-color:brown">Enter</th>
+            </tr>
+        </table>
+        <hr>
+        <h2>colspan</h2>
+        <table border="2">
+            <tr>
+                <th colspan="2"> Name</th>
+                <th>Age</th>
+                <th colspan="4"> Marks</th>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Maths</th>
+                <th>English</th>
+                <th>Hindi</th>
+                <th>Science</th>
+            </tr>
+            <tr>
+                <td>Manu</td>
+                <td>Bharadwaj</td>
+                <td>20</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            </tr>
+        </table>
+        <hr>
+        <h2>Rowspan</h2>
+        <table border="2">
+            <tr>
+                <th rowspan="2"> Name</th>
+                <th>First Name</th>
+                <td>Manu</td>
+                <td>soni</td>
+            </tr>
+            <tr>
+                <th>Last Name</th>
+                <td>Bharadwaj</td>
+                <td>sharma</td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td></td>
+                <td>20</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <th rowspan="4">Marks</th>
+                <th>Maths</th>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>English</th>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Hindi</th>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <th>Science</th>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            </tr>
+        </table>
+        <hr>
+        <h1>Rowspan and Colspan Example</h1>
+        <table border="2">
+            <tr>
+                <th colspan="7">Time Table</th>
+            </tr>
+            <tr>
+                <th rowspan="6">Hours</th>
+
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thrusday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <td>Social Science</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>Biology</td>
+                <td>Art</td>
+                <td>P.Ed</td>
+            </tr>
+            <tr>
+                <th colspan="5">Lunch</th>
+            </tr>
+            <tr>
+                <th rowspan="3">Half Day</th>
+            </tr>
+            <tr>
+
+                <td>Maths</td>
+                <td>Biology</td>
+                <td>Physical</td>
+                <td>Social cience</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>Maths</td>
+                <td>Sport</td>
+                <td>Physics</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Datesheet Example</h2>
+        <table border="2" cellpadding="5" style="border-collapse: collapse;">
+
+            <tr>
+                <th colspan="5"></th>
+            </tr>
+            <tr>
+                <th rowspan="5"></th>
+                <th>Date</th>
+                <th>Shift</th>
+                <th>Time</th>
+                <th>Subject Code</th>
+                <th>Title</th>
+            </tr>
+            <tr>
+                <td>24/03/2022 (Thrusday)</td>
+                <td>1</td>
+                <td>09:AM-12:45PM</td>
+                <td>D-MBA-101</td>
+                <td>Principle of Managemnet</td>
+            </tr>
+            <tr>
+                <td>25/03/2022 (Friday)</td>
+                <td>1</td>
+                <td>09:00AM-12:45PM</td>
+                <td>C-MBA-102</td>
+                <td>Data drafting</td>
+            </tr>
+            <tr>
+                <td>25/03/2022 (Saturday)</td>
+                <td>1</td>
+                <td>09:00AM-12:45PM</td>
+                <td>B-MBA-103</td>
+                <td>DATA MONETIZE</td>
+            </tr>
+        </table>
+    </body>
+
+</html>
